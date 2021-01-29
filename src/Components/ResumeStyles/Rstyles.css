@@ -1,0 +1,189 @@
+.nav{
+    height: 15vh;
+    background-color: #320e3b !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.nav h1{
+    color: white;
+    font-size: 30px;
+}
+
+.nav p{
+    font-size: 20px;
+}
+
+.summary-contact{
+    
+    display: flex;
+    
+}
+
+.summary{
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+    color:#320e3b;
+ 
+}
+
+.contact{
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.contact h1{
+    text-align: left;
+    border-bottom: 2px solid #320e3b; 
+    color: #320e3b;
+    width: 80%;
+    font-size:16px;
+}
+
+.contact h3{
+    color: #320e3b;
+    margin-top: 10px;
+    font-size:16px;
+}
+
+
+.work-exp{
+    padding-left: 50px;
+    color: #320e3b;
+}
+
+.work-exp h1{
+    border-bottom: 2px solid #320e3b;
+    width: 90%;
+    font-size:16px;
+    
+}
+
+.exp{
+    display: flex;
+    margin-top: 30px;
+}
+
+.date{
+    width: 30%;
+    height: 100px;
+    
+}
+
+.workcv{
+    padding-left: 175px;
+}
+
+.workcv h2{
+    font-size: 16px;
+}
+
+.workcv h5{
+    margin-top: 10px;
+  
+    
+}
+
+.workcv p{
+    width: 70%;
+    margin-top: 20px;
+}
+
+.educationcv{
+    padding-left: 50px;
+}
+
+.educationcv h1{
+    border-bottom: 2px solid #320e3b;
+    width: 90%;
+    color: #320e3b;
+    font-size: 16px;
+}
+
+.edu{
+    display: flex;
+    margin-top: 30px;
+    color: #320e3b;
+}
+
+.edudate{
+    width: 30%;
+}
+
+.school{
+    padding-left: 175px;
+}
+
+.school h2{
+    font-size: 16px;
+}
+
+
+.school h5{
+    margin-top: 10px;
+}
+
+.school p{
+    width: 70%;
+    margin-top: 20px;
+}
+
+.skillcv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.skillcv h1{
+    border-bottom: 2px solid #320e3b;
+    width: 30%;
+    text-align: center;
+    color: #320e3b;
+    font-size: 16px;
+}
+
+.skillbox{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.skillbox li{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #320e3b;
+    font-weight: lighter;
+}
+
+.print{
+    height: 50px;
+    width: 300px;
+    background: #320e3b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none ;
+}
+
+@media print {
+    .print{
+        display: none;
+    }
+
+    body{
+        -webkit-print-color-adjust : exact !important;
+    }
+
+}

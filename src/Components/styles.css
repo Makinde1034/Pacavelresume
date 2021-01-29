@@ -1,0 +1,563 @@
+
+:root{
+    --bg: #8ac926;
+}
+
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+    background: rgb(245, 222, 179);
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    
+}
+
+nav h1{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li{
+    cursor: pointer;
+}
+
+nav button{
+    height: 40px;
+    width: 150px;
+    border: 1px solid #8ac926;
+    font-weight: bold;
+    background: wheat;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+
+.landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background: rgb(245, 222, 179);
+    
+   
+}
+
+.landing h1{
+    font-size: 40px;
+}
+
+.landing p{
+    text-align: center;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.landing button{
+    height: 50px;
+    width: 300px;
+    background: var(--bg);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none ;
+}
+
+/* contact */
+
+
+
+
+.contact1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+
+
+
+
+.contact1 h1{
+    color:var(--bg);
+    font-size: 25px;
+}
+
+.contact2 p{
+    font-weight: bold;
+}
+
+.contact1 form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.contact1 form label{
+    font-weight: bold;
+    margin-bottom:10px;
+    margin-top: 30px;
+}
+
+.contact1 form input{
+    outline: none;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 209, 209);
+}
+
+.contact1 form input:focus{
+    border: 1px solid #8ac926;
+}
+
+.nextbut{
+    height: 50px;
+    width: 150px;
+    background: var(--bg);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+
+.savebut{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: var(--bg);
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.check{
+    height: 20px;
+    visibility:hidden;
+   
+}
+
+.check.active{
+    visibility: visible;
+   
+}
+
+/* work */
+
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 0vh 10vh 0vh;
+}
+
+.work h3{
+    color: var(--bg);
+    font-size: 25px;
+}
+
+
+.work form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.work form label{
+    font-weight: bold;
+    margin-bottom:10px;
+    margin-top: 30px;
+}
+
+.work form input{
+    outline: none;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(182, 158, 158);
+}
+
+.work textarea{
+    height: 100px;
+    outline: none;
+    border: 1px solid rgb(218, 209, 209);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.work form input:focus{
+    border: 1px solid #8ac926;
+}
+
+.check-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+}
+.check-box p{
+    font-size: 14px;
+}
+
+.work form p{
+    height: 10px;
+}
+
+.add{
+    
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(133, 133, 216);
+}
+
+.butdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 30px;
+}
+
+.backbut{
+    height: 50px;
+    width: 150px;
+    background:var(--bg);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+
+
+/* Education */
+
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+
+.education h3{
+    color: var(--bg);
+    font-size: 25px;
+}
+
+
+.education form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.education form label{
+    font-weight: bold;
+    margin-bottom:10px;
+    margin-top: 30px;
+}
+
+.education form input{
+    outline: none;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 209, 209);
+}
+
+.education form input:focus{
+    border: 1px solid #8ac926;
+}
+.education select{
+    outline: none;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 209, 209);
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+
+.skills h3{
+    color: var(--bg);
+    font-size: 25px;
+}
+
+.skills form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 30px;
+}
+
+
+.skills form input{
+    outline: none;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 209, 209);
+    width: 100%;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.skills form label{
+    font-weight: bold;
+    margin-bottom:10px;
+    margin-top: 30px;
+}
+
+.addskill{
+    width: 50px;
+    background: none;
+    border: 1px solid rgb(218, 209, 209);
+    border-left: none;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    color: black;
+}
+
+.skill-list{
+    list-style: none;
+    height:50px;
+    background: rgba(221, 216, 216, 0.404);
+    /* visibility: hidden; */
+    
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.skill-list.active{
+    visibility: visible;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+
+.about h3{
+    color: var(--bg);
+    font-size: 25px;
+}
+
+.about form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.about form label{
+    font-weight: bold;
+    margin-bottom:10px;
+    margin-top: 30px;
+}
+
+.about form input{
+    outline: none;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(182, 158, 158);
+}
+
+.about textarea{
+    height: 100px;
+    outline: none;
+    border: 1px solid rgb(218, 209, 209);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.about form textarea:focus{
+    border: 1px solid #8ac926;
+}
+
+.proceed{
+    height: 90vh;
+    display: flex;
+
+}
+
+.proceed1{
+    width: 30%;
+    padding-top: 10vh;
+    padding-left: 100px;
+}
+
+.proceed1 h1{
+    font-size: 40px;
+}
+
+.proceed1 h3{
+    margin-top: 20px;
+    color: #8ac926;
+}
+
+
+
+.proceed button{
+    height: 40px;
+    width: 300px;
+    background: var(--bg);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none ;
+    margin-top: 30px;
+}
+
+.proceed2{
+    width: 70%;
+  
+    
+}
+.proceed2 img{
+    height: 80%;
+}
+
+
+@media screen and (max-width:1024px){
+    nav{
+        padding-left: 20px;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    .landing{
+        align-items: flex-start;
+        padding-left: 20px;
+        height: auto;
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        
+        
+    }
+
+    .landing h1{
+        font-size: 30px;
+    }
+
+    .landing p{
+        text-align: left;
+        width: 100%;
+    }
+
+    .landing button{
+        width: 200px;
+    }
+
+    .contact1 p{
+        text-align: center;
+    }
+
+    .contact1 form{
+        width: 90%;
+    }
+
+   .nextbut{
+       width: 100px;
+   }
+
+   .backbut{
+       width: 100px;
+   }
+
+    .work p{
+        text-align: center;
+    }
+
+    .work form{
+        width: 90%;
+    }
+
+    .butdiv{
+        width: 90%;
+    }
+
+    .education p{
+        text-align: center;
+    }
+
+    .education form{
+        width: 90%;
+    }
+    
+    .skills p{
+        text-align: center;
+    }
+
+    .skills form{
+        width: 90%;
+    }
+
+    .proceed2{
+        display: none;
+    }
+
+    .proceed1{
+        width: 100%;
+        padding-left: 20px;
+    }
+
+  
+}
