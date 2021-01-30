@@ -27,7 +27,7 @@ function Cv2() {
 
     return (
         <div >
-            <div  style={{paddingBottom:'10vh',paddingTop:'5vh',width:'210mm',margin:'auto'}} className="paper">
+            <div  style={{paddingBottom:'10vh',paddingTop:'5vh',width:'190mm',margin:'auto'}} className="paper">
                 <div className="side">
                     <h1>{contact.firstname} {contact.lastname}</h1>
                     <p>{contact.profession}</p>
