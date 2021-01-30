@@ -1,7 +1,7 @@
 import React,{useState,useContext,useRef} from 'react'
 import {Data} from '../context.js'
 import '../ResumeStyles/Rstyles.css'
-import { useReactToPrint } from 'react-to-print';
+
 
 function Cv() {
     //contactapi
@@ -27,7 +27,7 @@ function Cv() {
 
 
     return (
-        <div style={{paddingBottom:'10vh',width:'210mm',height:'297mm',margin:'auto'}}>
+        <div style={{paddingBottom:'10vh',width:'210mm',margin:'auto'}}>
             
             {/* <h1>{contact.firstname}</h1>
             <h1>{contact.lastname}</h1>

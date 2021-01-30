@@ -1,3 +1,6 @@
+:root{
+    --ptsans: 'PT Sans', sans-serif;
+}
 .nav{
     height: 15vh;
     background-color: #320e3b !important;
@@ -6,6 +9,7 @@
     justify-content: center;
     align-items: center;
     color: white;
+    font-family: var(--ptsans);
     
 }
 
@@ -21,7 +25,7 @@
 .summary-contact{
     
     display: flex;
-    
+    font-family: var(--ptsans);
 }
 
 .summary{
@@ -36,6 +40,7 @@
     width: 50%;
     padding-top: 30px;
     padding-left: 50px;
+    font-family: var(--ptsans);
 }
 
 .contact h1{
@@ -56,6 +61,7 @@
 .work-exp{
     padding-left: 50px;
     color: #320e3b;
+    font-family: var(--ptsans);
 }
 
 .work-exp h1{
@@ -97,6 +103,7 @@
 
 .educationcv{
     padding-left: 50px;
+    font-family: var(--ptsans);
 }
 
 .educationcv h1{
@@ -167,7 +174,7 @@
 .print{
     height: 50px;
     width: 300px;
-    background: #320e3b;
+    background:#8ac926;
     border: none;
     border-radius: 5px;
     color: white;

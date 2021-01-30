@@ -2,6 +2,7 @@ import React,{useState,useContext,useEffect} from 'react'
 import {Data} from './context.js'
 import check from './images/check.svg'
 import {Link} from 'react-router-dom'
+import './styles.css'
 
 function Work() {
 
@@ -12,7 +13,7 @@ function Work() {
     const [state,setState] = useState(localStorage.getItem('state') ||'');
     const [startDate,setStartDate] = useState(localStorage.getItem('startdate') || '');
     const [endDate, setEndDate] = useState(localStorage.getItem('enddate') ||'');
-    const [stillHere, setStillHere] = useState('')
+    const [stillHere, setStillHere] = useState('');
 
     // work context
 

@@ -12,6 +12,8 @@ import Skills from './Components/skills';
 import Summary from './Components/Summary'
 import Example from './Components/test'
 import Proceed from './Components/Proceed'
+import Cv2 from './Components/templates/Cv2'
+import SelectTemplate from './Components/SelectTemplate'
 
 function App() {
 
@@ -26,9 +28,11 @@ function App() {
           <Route path='/education' component={Education} />
           <Route path='/skills' component={Skills} />
           <Route path='/cv' component={Cv} />
+          <Route path='/cv2' component={Cv2} />
           <Route path='/summary' component={Summary} />
           <Route path='/example' component={Example} />
           <Route path='/proceed' component={Proceed} />
+          <Route path='/select' component={SelectTemplate} />
 
 
         </Switch>

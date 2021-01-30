@@ -2,6 +2,7 @@ import React,{useState,useContext,useEffect} from 'react'
 import {Data} from './context'
 import {Link} from 'react-router-dom';
 import check from './images/check.svg'
+import './styles.css'
 
 
 function Contact() {

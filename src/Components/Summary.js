@@ -53,7 +53,7 @@ function Summary() {
                 </form>
                 <div className="butdiv">
                     <Link to='/skills'><button className='backbut'>Back</button></Link>
-                    <Link to='/cv'><button   className='nextbut'>Next : Skills</button></Link>
+                    <Link to='/select'><button   className='nextbut'>Next : Skills</button></Link>
                    
                 </div>
             </div>

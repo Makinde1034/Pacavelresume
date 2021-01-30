@@ -1,0 +1,107 @@
+:root{
+    --color: #213558;
+}
+
+.paper{
+    display: flex;
+}
+
+.side{
+    width: 25%;
+    background-color:var(--color);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-bottom: 10vh;
+}
+
+.side h3{
+    margin-top: 20px;
+    border-bottom: 2px solid white;
+    width: 70%;
+}
+
+.side h5{
+    margin-top: 10px;
+}
+
+.side p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.main{
+    width: 70%;
+    padding-left: 20px;
+    padding-top: 30px;
+   
+}
+
+.main h1{
+    font-size: 16px;
+    color: var(--color);
+    margin-top: 30px;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+/* work exerience */
+
+.cv2-work-exp{
+    display: flex;
+    margin-top: 20px;
+   
+}
+
+.cv2-work-date{
+    width: 30%;
+    font-size: 12px;
+    color: black;
+}
+
+.cv2-work-history{
+    width: 70%;
+    padding-left: 20px;
+    color: black
+    ;
+}
+
+.cv2-work-history h3{
+    font-size: 18px;
+}
+
+.cv2-work-history p{
+    font-size: 14px;
+    margin-top: 10px;
+    color: black;
+}
+
+/* education */
+.cv2-education{
+    display: flex;
+    margin-top: 30px;
+}
+.cv2-education-date{
+    width: 30%;
+    font-size: 12px;
+    color: black;
+}
+
+.cv2-education-history{
+    width: 70%;
+    padding-left: 20px;
+    
+}
+
+
+
+.cv2-education-history p{
+    font-size: 14px;
+    margin-top: 10px;
+    color: black;
+}
+

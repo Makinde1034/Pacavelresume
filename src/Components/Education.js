@@ -2,6 +2,7 @@ import React,{useState,useContext,useEffect} from 'react'
 import check from './images/check.svg'
 import {Data} from './context.js'
 import {Link} from 'react-router-dom'
+import './styles.css'
 
 function Education() {
 

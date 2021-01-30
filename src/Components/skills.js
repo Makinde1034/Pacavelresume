@@ -2,6 +2,7 @@ import React,{useState,useContext} from 'react'
 import {Data} from './context'
 import trash  from './images/trash.png'
 import {Link} from 'react-router-dom'
+import './styles.css'
 
 function Skills() {
 

@@ -85,6 +85,29 @@ nav button{
     outline: none ;
 }
 
+.templates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+
+.templates h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.templates img{
+    height: 500px;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.templates img:hover{
+    transform: scale(1.5);
+}
+
 /* contact */
 
 
@@ -473,6 +496,29 @@ nav button{
     height: 80%;
 }
 
+/* SelectTemplate */
+
+.select h3{
+    text-align: center;
+    color: #8ac926;
+    margin-top:
+    50px;
+}
+
+.select img{
+    height: 400px;
+    margin: 30px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+
+.select-temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @media screen and (max-width:1024px){
     nav{
@@ -483,12 +529,17 @@ nav button{
         display: none;
     }
 
+    .bound{
+        background: rgb(245, 222, 179);
+    }
+
     .landing{
         align-items: flex-start;
         padding-left: 20px;
         height: auto;
         padding-bottom: 10vh;
         padding-top: 10vh;
+        
         
         
     }
@@ -505,6 +556,23 @@ nav button{
     .landing button{
         width: 200px;
     }
+
+    /* temp */
+
+    .template-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    .templates img{
+        height: 300px;
+        margin: 20px;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+
+    /* contact */
 
     .contact1 p{
         text-align: center;
@@ -557,6 +625,26 @@ nav button{
     .proceed1{
         width: 100%;
         padding-left: 20px;
+    }
+
+    /* about */
+
+    .about{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about form{
+        width: 90%;
+    }
+
+    /* select temp */
+
+    .select-temp{
+        flex-direction: column;
+    }
+
+    .select img{
+        height: 300px;
     }
 
   
