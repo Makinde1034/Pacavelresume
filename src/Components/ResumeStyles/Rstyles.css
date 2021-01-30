@@ -3,7 +3,7 @@
 }
 .nav{
     height: 15vh;
-    background-color: #320e3b !important;
+    background-color: black !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,7 +32,7 @@
     width: 50%;
     padding-top: 50px;
     padding-left: 50px;
-    color:#320e3b;
+    color:black;
     font-size: 14px;
  
 }
@@ -46,14 +46,14 @@
 
 .contact h1{
     text-align: left;
-    border-bottom: 2px solid #320e3b; 
-    color: #320e3b;
+    border-bottom: 2px solid black;
+    color: black;
     width: 80%;
     font-size:16px;
 }
 
 .contact h3{
-    color: #320e3b;
+    color: black;
     margin-top: 10px;
     font-size:14px;
 }
@@ -66,12 +66,12 @@
 
 .work-exp{
     padding-left: 50px;
-    color: #320e3b;
+    color: black;
     font-family: var(--ptsans);
 }
 
 .work-exp h1{
-    border-bottom: 2px solid #320e3b;
+    border-bottom: 2px solid black;
     width: 90%;
     font-size:16px;
     
@@ -117,16 +117,16 @@
 }
 
 .educationcv h1{
-    border-bottom: 2px solid #320e3b;
+    border-bottom: 2px solid black;
     width: 90%;
-    color: #320e3b;
+    color: black;
     font-size: 16px;
 }
 
 .edu{
     display: flex;
     margin-top: 30px;
-    color: #320e3b;
+    color: black;
 }
 
 .edudate{
@@ -162,10 +162,10 @@
 }
 
 .skillcv h1{
-    border-bottom: 2px solid #320e3b;
+    border-bottom: 2px solid black;
     width: 30%;
     text-align: center;
-    color: #320e3b;
+    color: black;
     font-size: 16px;
 }
 
@@ -179,7 +179,7 @@
 .skillbox li{
     margin-top: 10px;
     font-weight: bold;
-    color: #320e3b;
+    color: black;
     font-weight: lighter;
 }
 
